@@ -108,14 +108,17 @@ textarea {
 --------------------
 */
 
-header {
-    background: url(../img/profile_bg.png) right no-repeat;
+header{
+    background: url(../img/profile.bg.jpg) right no-repeat;
     background-size: contain;
+    background-color: lightyellow;
+    width: 100%;
     padding: 50px 0;
 }
 header .column_8 {
     right: 33%;
     position: relative;
+
 }
 header .column_4 {
     left: 70%;
@@ -233,7 +236,7 @@ header .column_4 {
     font-size: 16px;
 }
 .latst_wrks_rgt {
-    background: #f285b8;
+    background: pink;
     padding: 20px 0;
 }
 .latst_wrks_rgt img {
@@ -294,7 +297,7 @@ header .column_4 {
 */
 
 .exprinc_block {
-    background: #f3f4f9;
+    background: rgba(128, 128, 128, 0.455);
     padding: 50px 0;
     overflow: hidden;
 }
